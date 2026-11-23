@@ -10,6 +10,7 @@ add_library(search_lib
     src/document-reader.cpp
     src/document.cpp
     src/tokenizer.cpp
+    src/relevance.cpp
 )
 
 target_include_directories(search_lib
