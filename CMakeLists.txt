@@ -9,6 +9,7 @@ set(CMAKE_CXX_EXTENSIONS OFF)
 add_library(search_lib
     src/document-reader.cpp
     src/document.cpp
+    src/tokenizer.cpp
 )
 
 target_include_directories(search_lib
